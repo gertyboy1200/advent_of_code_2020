@@ -6,6 +6,3 @@ def get_file_contents(file_name):
     for x in lines:
         stripped_lines.append(x.strip())
     return stripped_lines
-
-
-print(get_file_contents('/Users/garrettkolenbrander/Code/world.py'))
